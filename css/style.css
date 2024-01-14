@@ -1,0 +1,50 @@
+@font-face {
+    font-family:ggsans ;
+    src: url("/Fonts/gg-sans/ggsans-Bold.ttf");
+}
+*{
+font-family: ggsans;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+ } 
+ a:hover{
+    text-decoration: underline;
+ }
+.light{
+    color:#fff;
+}
+.left-shift{
+    left:-100px;
+}
+.right-shift{
+    right:-80px;
+   
+}
+.btn-radius{
+ 
+    border-radius: 30px;
+}
+.hero{
+    top:50%;
+}
+@media (max-width:768px){
+    .size{
+        width:300px;
+        height:400px;
+    }
+}
+@media (max-width: 1024px) {
+    .hero{
+top:10px;
+    }
+    .left-shift{
+        width:300px;
+        left:0px;
+      
+       
+    }
+}
